@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\script">
+      <UniqueIdentifier>{e432f5d1-0154-421d-b9db-48aba3c6f614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\compact">
+      <UniqueIdentifier>{1f9521da-bf76-4a76-ba32-fce8bc0589df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\far">
+      <UniqueIdentifier>{96397a52-dd72-4421-8bfd-4a8c63957a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lookahead">
+      <UniqueIdentifier>{2a2710ab-8a47-4413-b963-b5dc4c54a3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pdt">
+      <UniqueIdentifier>{c62db29f-9fbe-463f-a322-ec3ad9c2a8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pdt">
+      <UniqueIdentifier>{27fd53e3-ffb6-4948-a7e8-0f48e9eb2b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lookahead">
+      <UniqueIdentifier>{6793a6f2-2698-4ce3-b042-968db17d5938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\script">
+      <UniqueIdentifier>{05296834-4fdd-4818-8d94-ea90abd262c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\openfst-1.2\src\lib\compat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\lib\flags.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\lib\fst.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\lib\properties.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\lib\symbol-table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\lib\util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\fst-class.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\script-impl.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\compose.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact8_acceptor-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact8_string-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact8_unweighted_acceptor-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact8_unweighted-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact8_weighted_string-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact16_acceptor-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact16_string-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact16_unweighted_acceptor-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact16_unweighted-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact16_weighted_string-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact64_acceptor-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact64_string-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact64_unweighted_acceptor-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact64_unweighted-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\compact\compact64_weighted_string-fst.cc">
+      <Filter>Source Files\compact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\arcsort.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\closure.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\compile.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\concat.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\connect.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\convert.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\decode.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\determinize.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\difference.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\draw.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\encode.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\epsnormalize.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\equal.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\equivalent.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\info.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\intersect.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\invert.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\map.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\minimize.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\print.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\project.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\prune.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\push.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\randequivalent.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\randgen.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\replace.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\reverse.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\reweight.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\rmepsilon.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\shortest-distance.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\shortest-path.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\synchronize.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\text-io.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\topsort.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\union.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\weight-class.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\lookahead\arc_lookahead-fst.cc">
+      <Filter>Source Files\lookahead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\lookahead\ilabel_lookahead-fst.cc">
+      <Filter>Source Files\lookahead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\extensions\lookahead\olabel_lookahead-fst.cc">
+      <Filter>Source Files\lookahead</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openfst-1.2\src\script\relabel.cc">
+      <Filter>Source Files\script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\arc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\arcfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\arcmerge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\arcsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\arcsum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\closure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\compact-fst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\complement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\compose-filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\compose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\concat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\connect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\const-fst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\determinize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\dfs-visit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\difference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\epsnormalize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\equal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\equivalent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\expanded-fst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\factor-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\float-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\fst-decl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\fst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\fstlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\intersect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\invert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\lexicographic-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\matcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\minimize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\mutable-fst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\pair-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\partition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\product-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\prune.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\push.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\randequivalent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\randgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\random-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\rational.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\relabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\replace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\reverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\reweight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\rmepsilon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\rmfinalepsilon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\shortest-distance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\shortest-path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\slist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\state-table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\statesort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\string-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\symbol-table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\synchronize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\test-properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\text-io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\topsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\union-find.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\union.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\vector-fst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\verify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\visit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\accumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\add-on.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\edit-fst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\generic-register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\icu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\interval-set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\label-reachable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\lookahead-filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\lookahead-matcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\matcher-fst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\power-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\replace-util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\state-reachable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\tuple-weight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\unordered_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\unordered_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\arcsort.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\arg-packs.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\closure.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\compile.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\compile-impl.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\compose.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\concat.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\connect.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\convert.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\decode.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\determinize.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\difference.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\draw.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\draw-impl.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\encode.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\epsnormalize.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\equal.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\equivalent.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\fst-class.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\fstscript.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\fstscript-decl.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\info.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\info-impl.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\intersect.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\invert.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\map.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\minimize.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\print.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\print-impl.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\project.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\prune.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\push.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\randequivalent.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\randgen.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\register.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\relabel.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\replace.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\reverse.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\reweight.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\rmepsilon.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\script-impl.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\shortest-distance.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\shortest-path.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\symbols.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\synchronize.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\text-io.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\topsort.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\union.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\openfst-1.2\src\include\fst\script\weight-class.h">
+      <Filter>Header Files\script</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\openfst-1.2\src\include\fst\unordered_map">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\openfst-1.2\src\include\fst\unordered_set">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <_PropertySheetDisplayName>openfstwinlib</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\openfst-1.2\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PreprocessorDefinitions>WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\openfstwinlib\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>arcsort.obj;arc_lookahead-fst.obj;closure.obj;compact16_acceptor-fst.obj;compact16_string-fst.obj;compact16_unweighted-fst.obj;compact16_unweighted_acceptor-fst.obj;compact16_weighted_string-fst.obj;compact64_acceptor-fst.obj;compact64_string-fst.obj;compact64_unweighted-fst.obj;compact64_unweighted_acceptor-fst.obj;compact64_weighted_string-fst.obj;compact8_acceptor-fst.obj;compact8_string-fst.obj;compact8_unweighted-fst.obj;compact8_unweighted_acceptor-fst.obj;compact8_weighted_string-fst.obj;compat.obj;compile.obj;compose.obj;concat.obj;connect.obj;convert.obj;decode.obj;determinize.obj;difference.obj;draw.obj;encode.obj;epsnormalize.obj;equal.obj;equivalent.obj;flags.obj;fst-class.obj;fst.obj;ilabel_lookahead-fst.obj;info.obj;intersect.obj;invert.obj;map.obj;minimize.obj;olabel_lookahead-fst.obj;print.obj;project.obj;properties.obj;prune.obj;push.obj;randequivalent.obj;randgen.obj;relabel.obj;replace.obj;reverse.obj;reweight.obj;rmepsilon.obj;script-impl.obj;shortest-distance.obj;shortest-path.obj;symbol-table.obj;synchronize.obj;text-io.obj;topsort.obj;union.obj;util.obj;weight-class.obj;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+</Project>
