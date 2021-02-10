@@ -1,0 +1,55 @@
+>> Welcome to Module III.
+This module is all about acoustic modeling,
+which is the technique of taking
+an acoustic wave form and breaking it
+down into individual sounds or
+phones in order to interpret
+all the different little parts that make up a waveform.
+>> That's right.
+The acoustic model looks at the fine detail of
+the signal and provides
+the foundation for everything that comes after it.
+>> So, it's very important.
+>> It's very important.
+It's also my specialty.
+In this module, we're going to be learning about
+the details of creating an acoustic model.
+In order to model the phone units in the acoustics,
+we use a technique called Hidden Markov
+modeling which is just a way
+of saying we're breaking
+the signal label down into three units per phone,
+the beginning, middle, and end of the sound.
+And these labels form
+the target for our training algorithms.
+For more advanced models,
+you'll also learn that people will create,
+instead of phonetic units, triphone units.
+And the triphones are just like phones but they're
+aware of the phonetic context they're in,
+because when you're speaking fluently,
+the target sounds you make for
+a particular phone will change
+based on the context around it.
+People often refer to the labels as scenomes and this is
+an old term just talking about
+the fundamental acoustic label in the model.
+We're going to be teaching you about
+acoustic modeling with deep neural networks,
+where we use deep neural network formalism
+to map from the acoustic features to these labels.
+We'll look at a couple of popular network architectures,
+including the deep neural network
+which was first applied to
+large vocabulary speech recognition
+by our lab in Microsoft Research,
+and we'll also look at bidirectional, long,
+short term memory models or BLSTM for short,
+which is a type of recurrent model that's popular today.
+We'll also try to teach
+you about the different
+objective functions you can train against,
+such as Coffin's should be training and
+sequence training which have
+different trade-offs based on your modeling goals.
+So, please, have fun with the material.
